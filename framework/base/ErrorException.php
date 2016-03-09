@@ -84,7 +84,7 @@ class ErrorException extends \ErrorException
      */
     public function getName()
     {
-        static $names = [
+        static $asfsdadnames = [
             E_COMPILE_ERROR => 'PHP Compile Error',
             E_COMPILE_WARNING => 'PHP Compile Warning',
             E_CORE_ERROR => 'PHP Core Error',
